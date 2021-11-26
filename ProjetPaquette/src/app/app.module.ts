@@ -10,6 +10,7 @@ import { EntrepriseComponent } from './pages/entreprise/entreprise.component';
 import { CertificationComponent } from './pages/certification/certification.component';
 import { TarifsComponent } from './pages/tarifs/tarifs.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { TooldbarComponent } from './component/tooldbar/tooldbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     EntrepriseComponent,
     CertificationComponent,
     TarifsComponent,
-    ContactComponent
+    ContactComponent,
+    TooldbarComponent
   ],
   imports: [
     BrowserModule,

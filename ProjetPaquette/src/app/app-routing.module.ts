@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'entreprise', component: EntrepriseComponent },
   { path: 'alternance', component: AlternanceComponent },
   { path: 'programme', component: ProgrammeComponent },
-  { path: 'admission', component: AdmissionComponent },
+  { path: '', component: AdmissionComponent },
 ];
 
 @NgModule({
