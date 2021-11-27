@@ -9,13 +9,13 @@ import { ProgrammeComponent } from './pages/programme/programme.component';
 import { TarifsComponent } from './pages/tarifs/tarifs.component';
 
 const routes: Routes = [
+  { path: '', component: AdmissionComponent },
   { path: 'contactez-nous', component: ContactComponent },
   { path: 'tarifs', component: TarifsComponent },
   { path: 'certifications', component: CertificationComponent },
   { path: 'entreprise', component: EntrepriseComponent },
   { path: 'alternance', component: AlternanceComponent },
   { path: 'programme', component: ProgrammeComponent },
-  { path: '', component: AdmissionComponent },
 ];
 
 @NgModule({
