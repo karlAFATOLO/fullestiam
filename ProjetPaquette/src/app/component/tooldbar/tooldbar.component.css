@@ -74,9 +74,7 @@ svg.material-icons:not(:last-child) {
   margin-right: 8px;
 }
 
-.card svg.material-icons path {
-  fill: rgb(173, 170, 170);
-}
+
 
 .card-container {
   display: flex;
@@ -114,7 +112,7 @@ svg.material-icons:not(:last-child) {
 }
 
 .card-container .card:not(.highlight-card) {
-  cursor: pointer;
+  cursor: grab;
 }
 
 .card-container .card:not(.highlight-card):hover {
@@ -128,7 +126,7 @@ svg.material-icons:not(:last-child) {
 
 .card.highlight-card {
   background-color: #1976d2;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   border: none;
   width: auto;
@@ -194,7 +192,7 @@ a:hover {
 
 .terminal pre {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 0 1rem 1rem;
   margin: 0;
 }
